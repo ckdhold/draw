@@ -493,7 +493,7 @@ export const defaultCurrentPrize = <IPrizeConfig>{
   picture: {
     id: "2",
     name: "三等奖",
-    url: "images/image3.png",
+    url: "./images/image3.png",
   },
   separateCount: {
     enable: true,
@@ -530,27 +530,27 @@ export const defaultImageList = [
   {
     id: "0",
     name: "一等奖",
-    url: "/images/image1.png",
+    url: "./images/image1.png",
   },
   {
     id: "1",
     name: "二等奖",
-    url: "/images/image2.png",
+    url: "./images/image2.png",
   },
   {
     id: "2",
     name: "三等奖",
-    url: "/images/image3.png",
+    url: "./images/image3.png",
   },
   {
     id: "3",
     name: "超级奖",
-    url: "/images/image4.png",
+    url: "./images/image4.png",
   },
   {
     id: "4",
     name: "特别奖",
-    url: "/images/image5.png",
+    url: "./images/image5.png",
   },
 ];
 export const defaultPatternList = [
