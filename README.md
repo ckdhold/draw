@@ -53,8 +53,6 @@ pnpm build
 
 构建产物将输出到 `dist` 目录
 
-本项目 fork 自 https://github.com/LOG1997/log-lottery
-
 ## 部署
 
 ### Cloudflare Pages
