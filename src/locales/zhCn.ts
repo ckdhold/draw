@@ -144,7 +144,7 @@ export default {
     operation: '操作',
     delete: '删除',
     removePerson: '移入未中奖名单',
-    defaultTitle: '火星工程集团 - 幸运大抽奖',
+    defaultTitle: 'XXXX集团 - 幸运大抽奖',
     xlsxName: '人口登记表-zhCn.xlsx',
     readmeName: 'readme-zhCn.md',
   },
