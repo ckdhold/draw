@@ -114,8 +114,8 @@ const rootRoutes = [
 const finalRoutes = rootRoutes
 
 const router = createRouter({
-  // 读取环境变量：file 模式使用 hash 路由，其他模式使用 history 路由
-  history: envMode === 'file' ? createWebHashHistory() : createWebHistory(),
+  // 所有模式都使用 hash 路由
+  history: createWebHashHistory(),
   routes: finalRoutes,
 })
 
