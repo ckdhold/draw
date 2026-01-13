@@ -21,7 +21,8 @@ async function getImageStoreItem(item: any): Promise<string> {
     image = await imageDbStore.getItem(key) as string
   }
   else {
-    image = item.url
+    // 确保路径是相对于根目录的，在hash路由模式下正确解析
+    image = item.url.startsWith('/') ? item.url : `./${item.url}`
   }
 
   return image
