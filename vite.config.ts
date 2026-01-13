@@ -113,6 +113,13 @@ export default defineConfig(({ mode }) => {
           // 路径重写
           rewrite: (path) => path.replace(/^\/api/, ""),
         },
+        "/draw": {
+          target: "https://www.cked.cn",
+          // 是否跨域
+          changeOrigin: true,
+          // 路径重写，保留/draw前缀
+          rewrite: (path) => path,
+        },
       },
     },
     resolve: {

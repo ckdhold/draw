@@ -185,7 +185,7 @@ luck/
 ├── public/              # 静态资源
 │   ├── images/         # 图片资源
 │   ├── _redirects      # Cloudflare Pages 重定向规则
-│   └── favicon.ico     # 网站图标
+│   └── favicon.svg     # 网站图标
 ├── src/
 │   ├── api/            # API 请求
 │   ├── assets/       # 资源文件
